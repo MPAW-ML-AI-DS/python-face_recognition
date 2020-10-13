@@ -9,8 +9,8 @@ Building a basic facial recognition model while learning to do so.
  - The names of the photos in the ./known folder are what will be used to label potential matches, it's
    essential to use meaningful and/or accurate names for known photos.
 
-## To run the initial comparison
+## To run the basic comparison
  -      face_recognition ./known ./unknown
 
-## To run and display the percentage of difference/accuracy/distance
+## To run the comparison and display the percentage of difference/accuracy/distance
  -      face_recognition --show-distance true ./known ./unknown
